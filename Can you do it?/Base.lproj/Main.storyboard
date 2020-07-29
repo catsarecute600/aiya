@@ -122,8 +122,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                              " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLU-VY-LTx">
-                                <rect key="frame" x="10" y="624" width="394" height="122"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                                              " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLU-VY-LTx">
+                                <rect key="frame" x="10" y="624" width="396" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <nil key="textColor"/>
@@ -226,7 +226,7 @@
                                     <segue destination="bA5-as-Lqg" kind="presentation" id="kV1-Vt-kvG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqv-JH-faC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                              " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dqv-JH-faC">
                                 <rect key="frame" x="10" y="628" width="394" height="106"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -310,7 +310,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="Next &gt;"/>
                                 <connections>
-                                    <segue destination="Ncp-s3-lCv" kind="presentation" id="Wew-Mp-fTv"/>
+                                    <segue destination="Ncp-s3-lCv" kind="presentation" id="Kxx-wK-OxR"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="On a scale from 1 -5 (1 being the least helpful) would encouraging or motivational words help you be more productive?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEb-L2-cTT">
@@ -329,7 +329,7 @@
                                     <segue destination="a0e-xA-IAh" kind="presentation" id="bhh-u2-kGQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                              " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deX-a3-B7M">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                              " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deX-a3-B7M">
                                 <rect key="frame" x="15" y="615" width="385" height="119"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
@@ -364,7 +364,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="numberOneQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="zgg-zv-iWh"/>
+                                    <action selector="oneOne:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="By6-ue-d68"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4P-rm-qJT">
@@ -374,7 +374,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="numberTwoQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="fRa-B7-m4b"/>
+                                    <action selector="oneTwo:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="OTm-no-ENl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r1F-0t-UgI">
@@ -384,7 +384,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="numberThreeQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="Mbd-lb-lmx"/>
+                                    <action selector="oneThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="zfR-1d-1A4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPf-KS-ct2">
@@ -394,7 +394,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="numberFourQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="FOy-4Z-kyy"/>
+                                    <action selector="oneFour:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="KJs-4i-ZMl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZqO-Wv-cDp">
@@ -404,7 +404,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="numberFiveQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="EtB-qi-FXH"/>
+                                    <action selector="oneFive:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="S9m-5E-K08"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7d-uQ-x6g">
@@ -419,7 +419,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
                                 <state key="normal" title="&lt; Back"/>
                                 <connections>
-                                    <segue destination="JjF-Ut-t5w" kind="presentation" id="OfX-Ds-oBE"/>
+                                    <segue destination="JjF-Ut-t5w" kind="presentation" id="KcS-fb-W9b"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What number did you choose for each question?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sis-3S-pE9">
@@ -436,7 +436,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="numberOneQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="NSW-f2-Nm1"/>
+                                    <action selector="twoOne:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="MEw-38-ut0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQ9-rR-8vf">
@@ -446,7 +446,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="numberTwoQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="tUF-Yq-Xng"/>
+                                    <action selector="twoTwo:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="Wjv-ke-ylx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxy-Bu-nLI">
@@ -456,7 +456,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="numberThreeQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="L8m-Vq-KQD"/>
+                                    <action selector="twoThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="mRP-xN-UrK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8qZ-Fd-WXm">
@@ -466,7 +466,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="numberFourQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="0kA-C0-pGf"/>
+                                    <action selector="twoFour:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="SBJ-iM-lsB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uB-ZB-GYq">
@@ -476,7 +476,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="numberFiveQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="9qz-90-564"/>
+                                    <action selector="twoFive:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="9r8-nJ-x0o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZJD-Td-Fdd">
@@ -486,7 +486,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="numberOneQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="Bc4-p5-7Hi"/>
+                                    <action selector="threeOne:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="iWA-eh-re6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgz-om-XiR">
@@ -496,7 +496,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="numberTwoQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="jg5-OG-AnG"/>
+                                    <action selector="threeTwo:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="hcF-a5-WDp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odx-Ez-h3S">
@@ -506,7 +506,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="numberThreeQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="dvd-aZ-dck"/>
+                                    <action selector="threeThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="5Ks-zw-8in"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Jo-UR-Hfn">
@@ -516,7 +516,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="numberFourQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="GuG-hM-1rG"/>
+                                    <action selector="threeFour:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="PpS-gL-Tfc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mya-YS-0le">
@@ -526,7 +526,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="5"/>
                                 <connections>
-                                    <action selector="numberFiveQuestionThree:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="4ht-oE-Kwd"/>
+                                    <action selector="threeFive:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="hZt-sS-0bU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="           " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEd-6t-om2">
@@ -550,11 +550,33 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LTi-Oq-s4s">
+                                <rect key="frame" x="47" y="546" width="311" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Your Productive Level is....."/>
+                                <connections>
+                                    <action selector="yourProductivity:" destination="Ncp-s3-lCv" eventType="touchUpInside" id="3jX-r5-XNz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="                                                                " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ud0-sD-W7G">
+                                <rect key="frame" x="0.0" y="631" width="414" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.1184564382" green="1" blue="0.69090862659999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="o5N-Qb-yXt"/>
                     </view>
                     <navigationItem key="navigationItem" id="BOD-O5-MK9"/>
+                    <connections>
+                        <outlet property="level" destination="ud0-sD-W7G" id="jhK-sc-V1T"/>
+                        <outlet property="oneLable" destination="eEd-6t-om2" id="1CM-X3-gk9"/>
+                        <outlet property="threeLable" destination="y5h-KX-hJe" id="2iB-ra-f1O"/>
+                        <outlet property="twoLable" destination="efp-HO-lPl" id="xS3-Ac-Ird"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ANj-Ha-sfu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -562,8 +584,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="OfX-Ds-oBE"/>
-        <segue reference="zsd-fe-Q7z"/>
-        <segue reference="Ckf-GK-gBp"/>
+        <segue reference="KcS-fb-W9b"/>
+        <segue reference="bhh-u2-kGQ"/>
+        <segue reference="kV1-Vt-kvG"/>
     </inferredMetricsTieBreakers>
 </document>
