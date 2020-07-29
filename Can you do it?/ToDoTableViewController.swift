@@ -30,7 +30,7 @@ class ToDoTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
         
         let toDo = toDos[indexPath.row]
-       
+        
         if toDo.important {
           cell.textLabel?.text = "❗️" + toDo.name
         } else {
@@ -41,17 +41,32 @@ class ToDoTableViewController: UITableViewController {
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            
+            let toDo = toDos[indexPath.row]
+            
+            performSegue(withIdentifier: "moveToComplete", sender: toDo)
+        }
+    
 
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let addVC = segue.destination as?
-            AddToDoViewController {
+    AddToDoViewController {
             addVC.previousVC = self
         }
+        
+        if let completeVC = segue.destination as?
+    CompleteToDoViewController {
+            if let toDo = sender as? ToDo {
+                completeVC.selectedToDo = toDo
+                completeVC.previousVC = self
+            }
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
+}
     
     func createToDos() -> [ToDo] {
 
@@ -65,9 +80,6 @@ class ToDoTableViewController: UITableViewController {
 
       return [swift, dog]
     }
-    
-    
-    
     
     
     

@@ -616,6 +616,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <segue destination="8vE-0n-lcR" kind="show" identifier="moveToComplete" id="Kl0-YX-bpB"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fzp-zH-eVF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -675,6 +678,43 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xVf-SG-R49" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6157.971014492754" y="117.85714285714285"/>
+        </scene>
+        <!--Complete To Do View Controller-->
+        <scene sceneID="XOy-Pg-aAZ">
+            <objects>
+                <viewController id="8vE-0n-lcR" customClass="CompleteToDoViewController" customModule="Can_you_do_it_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Acn-XL-3gI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FvU-te-B4v">
+                                <rect key="frame" x="126" y="392" width="163" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="Complete"/>
+                                <connections>
+                                    <action selector="completeTapped:" destination="8vE-0n-lcR" eventType="touchUpInside" id="Y4M-2J-pnn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l4l-cE-18K">
+                                <rect key="frame" x="166" y="239" width="83" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mkA-3f-pth"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2wy-uv-oqq"/>
+                    <connections>
+                        <outlet property="titleLabel" destination="l4l-cE-18K" id="pos-fM-IDZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="74n-Ex-5vD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5199" y="828"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DUZ-3V-c79">

@@ -19,6 +19,7 @@
 		8C1B3EAB24D20A950021D9F3 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EAA24D20A950021D9F3 /* ToDoTableViewController.swift */; };
 		8C1B3EAD24D20ADB0021D9F3 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */; };
 		8C1B3EB324D217440021D9F3 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */; };
+		8C1B3EB724D22DBA0021D9F3 /* CompleteToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EB624D22DBA0021D9F3 /* CompleteToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		8C1B3EAA24D20A950021D9F3 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
+		8C1B3EB624D22DBA0021D9F3 /* CompleteToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */,
 				2AA0176E24D2268B00E51F60 /* ViewController.swift */,
 				2ACF31E724D0CD2C00B134DA /* Main.storyboard */,
+				8C1B3EB624D22DBA0021D9F3 /* CompleteToDoViewController.swift */,
 				8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */,
 				8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */,
 				2ACF31ED24D0CD3100B134DA /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			files = (
 				2ACF31E224D0CD2C00B134DA /* AppDelegate.swift in Sources */,
 				2ACF31EC24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodeld in Sources */,
+				8C1B3EB724D22DBA0021D9F3 /* CompleteToDoViewController.swift in Sources */,
 				8C1B3EAD24D20ADB0021D9F3 /* ToDo.swift in Sources */,
 				2ACF31E424D0CD2C00B134DA /* SceneDelegate.swift in Sources */,
 				2AA0176F24D2268B00E51F60 /* ViewController.swift in Sources */,
