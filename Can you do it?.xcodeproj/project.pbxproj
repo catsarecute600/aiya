@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AA0176F24D2268B00E51F60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA0176E24D2268B00E51F60 /* ViewController.swift */; };
 		2ACF31E224D0CD2C00B134DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31E124D0CD2C00B134DA /* AppDelegate.swift */; };
 		2ACF31E424D0CD2C00B134DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */; };
 		2ACF31E924D0CD2C00B134DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF31E724D0CD2C00B134DA /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AA0176E24D2268B00E51F60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2ACF31DE24D0CD2C00B134DA /* Can you do it?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can you do it?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACF31E124D0CD2C00B134DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			children = (
 				2ACF31E124D0CD2C00B134DA /* AppDelegate.swift */,
 				2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */,
+				2AA0176E24D2268B00E51F60 /* ViewController.swift */,
 				2ACF31E724D0CD2C00B134DA /* Main.storyboard */,
 				8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */,
 				8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */,
@@ -272,6 +275,7 @@
 				2ACF31EC24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodeld in Sources */,
 				8C1B3EAD24D20ADB0021D9F3 /* ToDo.swift in Sources */,
 				2ACF31E424D0CD2C00B134DA /* SceneDelegate.swift in Sources */,
+				2AA0176F24D2268B00E51F60 /* ViewController.swift in Sources */,
 				8C1B3EB324D217440021D9F3 /* AddToDoViewController.swift in Sources */,
 				8C1B3EAB24D20A950021D9F3 /* ToDoTableViewController.swift in Sources */,
 			);
