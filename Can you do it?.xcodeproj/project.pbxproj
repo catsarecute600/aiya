@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		2ACF31E224D0CD2C00B134DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31E124D0CD2C00B134DA /* AppDelegate.swift */; };
 		2ACF31E424D0CD2C00B134DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */; };
-		2ACF31E624D0CD2C00B134DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31E524D0CD2C00B134DA /* ViewController.swift */; };
 		2ACF31E924D0CD2C00B134DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF31E724D0CD2C00B134DA /* Main.storyboard */; };
 		2ACF31EC24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31EA24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodeld */; };
 		2ACF31EE24D0CD3100B134DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF31ED24D0CD3100B134DA /* Assets.xcassets */; };
 		2ACF31F124D0CD3100B134DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACF31EF24D0CD3100B134DA /* LaunchScreen.storyboard */; };
 		2ACF31FC24D0CD3100B134DA /* Can_you_do_it_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF31FB24D0CD3100B134DA /* Can_you_do_it_Tests.swift */; };
 		2ACF320724D0CD3100B134DA /* Can_you_do_it_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACF320624D0CD3100B134DA /* Can_you_do_it_UITests.swift */; };
+		8C1B3EAB24D20A950021D9F3 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EAA24D20A950021D9F3 /* ToDoTableViewController.swift */; };
+		8C1B3EAD24D20ADB0021D9F3 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */; };
+		8C1B3EB324D217440021D9F3 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		2ACF31DE24D0CD2C00B134DA /* Can you do it?.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Can you do it?.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACF31E124D0CD2C00B134DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2ACF31E524D0CD2C00B134DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2ACF31E824D0CD2C00B134DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2ACF31EB24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Can_you_do_it_.xcdatamodel; sourceTree = "<group>"; };
 		2ACF31ED24D0CD3100B134DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,9 @@
 		2ACF320224D0CD3100B134DA /* Can you do it?UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Can you do it?UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACF320624D0CD3100B134DA /* Can_you_do_it_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Can_you_do_it_UITests.swift; sourceTree = "<group>"; };
 		2ACF320824D0CD3100B134DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1B3EAA24D20A950021D9F3 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +107,14 @@
 			children = (
 				2ACF31E124D0CD2C00B134DA /* AppDelegate.swift */,
 				2ACF31E324D0CD2C00B134DA /* SceneDelegate.swift */,
-				2ACF31E524D0CD2C00B134DA /* ViewController.swift */,
 				2ACF31E724D0CD2C00B134DA /* Main.storyboard */,
+				8C1B3EB224D217440021D9F3 /* AddToDoViewController.swift */,
+				8C1B3EAC24D20ADB0021D9F3 /* ToDo.swift */,
 				2ACF31ED24D0CD3100B134DA /* Assets.xcassets */,
 				2ACF31EF24D0CD3100B134DA /* LaunchScreen.storyboard */,
 				2ACF31F224D0CD3100B134DA /* Info.plist */,
 				2ACF31EA24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodeld */,
+				8C1B3EAA24D20A950021D9F3 /* ToDoTableViewController.swift */,
 			);
 			path = "Can you do it?";
 			sourceTree = "<group>";
@@ -262,10 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2ACF31E624D0CD2C00B134DA /* ViewController.swift in Sources */,
 				2ACF31E224D0CD2C00B134DA /* AppDelegate.swift in Sources */,
 				2ACF31EC24D0CD2C00B134DA /* Can_you_do_it_.xcdatamodeld in Sources */,
+				8C1B3EAD24D20ADB0021D9F3 /* ToDo.swift in Sources */,
 				2ACF31E424D0CD2C00B134DA /* SceneDelegate.swift in Sources */,
+				8C1B3EB324D217440021D9F3 /* AddToDoViewController.swift in Sources */,
+				8C1B3EAB24D20A950021D9F3 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
