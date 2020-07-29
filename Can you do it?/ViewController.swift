@@ -36,39 +36,39 @@ class ViewController: UIViewController {
     @IBOutlet weak var Q2answer: UILabel!
 
     @IBAction func numberOneQuestionTwo(_ sender: Any) {
-        Q2answer.text = "1. You will need some strict rules to follow then."
+        Q2answer.text = "1. Awesome!!!"
 }
     @IBAction func numberTwoQuestionTwo(_ sender: Any) {
-        Q2answer.text = "2. Let's get you to follow them a bit better."
+        Q2answer.text = "2. Cool, not much more to improve"
 }
     @IBAction func numberThreeQuestionTwo(_ sender: Any) {
         Q2answer.text = "3. Not really bad or good, so lets get it to good!"
     }
     @IBAction func numberFourQuestionTwo(_ sender: Any) {
-        Q2answer.text = "4. Cool, not much more to improve"
+        Q2answer.text = "4. Let's get you to follow them a bit better."
     }
     
     @IBAction func numberFiveQuestionTwo(_ sender: Any) {
-        Q2answer.text = "5. Awesome!!!"
+        Q2answer.text = "5. You will need some strict rules to follow then."
     }
     
     @IBOutlet weak var Q3answer: UILabel!
 
     @IBAction func numberOneQuestionThree(_ sender: Any) {
-        Q3answer.text = "1. Aww ok"
+        Q3answer.text = "1. Niceeee, cool!"
     }
     @IBAction func numberTwoQuestionThree(_ sender: Any) {
-        Q3answer.text = "2. So probably not the best to have"
+        Q3answer.text = "2. Oh, so you think it will help!"
     }
     
     @IBAction func numberThreeQuestionThree(_ sender: Any) {
         Q3answer.text = "3. You don't mind it then?"
     }
     @IBAction func numberFourQuestionThree(_ sender: Any) {
-        Q3answer.text = "4. Oh, so you think it will help"
+        Q3answer.text = "4. So probably not the best to have, but you should get used to them."
     }
     @IBAction func numberFiveQuestionThree(_ sender: Any) {
-        Q3answer.text = "5. Niceeee, cool"
+        Q3answer.text = "5. awww too bad."
     }
     
     var Qq = 0
@@ -143,20 +143,20 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var level: UILabel!
     @IBAction func yourProductivity(_ sender: Any) {
-        if Qq >= 1 && Qq <= 3{
-            level.text = "Level 1"
+        if Qq == 3{
+            level.text = "Level 5"
         }
-        else if Qq >= 4 && Qq <= 6{
-            level.text = "Level 2"
-        }
-        else if Qq >= 7 && Qq <= 9{
-            level.text = "Level 3"
-        }
-        else if Qq >= 10 && Qq <= 12{
+        else if Qq >= 4 && Qq < 7{
             level.text = "Level 4"
         }
+        else if Qq >= 7 && Qq < 10{
+            level.text = "Level 3"
+        }
+        else if Qq >= 10 && Qq < 13{
+            level.text = "Level 2"
+        }
         else {
-            level.text = "Level 5"
+            level.text = "Level 1"
         }
     }
 }
