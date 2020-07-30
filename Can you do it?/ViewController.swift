@@ -17,19 +17,19 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Q1answer: UILabel!
 
-    @IBAction func numberOneQuestionOne(_ sender: UIButton) {
+    @IBAction func numberOneQuestionOne(_ sender: Any) {
         Q1answer.text = "1. Nice, thats great!"
 }
-    @IBAction func numberTwoQuestionOne(_ sender: UIButton) {
+    @IBAction func numberTwoQuestionOne(_ sender: Any) {
         Q1answer.text = "2. That's pretty good!"
 }
     @IBAction func numberThreeQuestionOne(_ sender: Any) {
          Q1answer.text = "3. Not too bad, but there is room to improve"
  }
-    @IBAction func numberFourQuestionOne(_ sender: UIButton) {
+    @IBAction func numberFourQuestionOne(_ sender: Any) {
         Q1answer.text = "4. Looks like you will need to learn to be more productive."
  }
-    @IBAction func numberFiveQuestionOne(_ sender: UIButton) {
+    @IBAction func numberFiveQuestionOne(_ sender: Any) {
         Q1answer.text = "5. I mean, you have to start somewhere. Lots of practice on productivity will be needed in your future."
 }
     
