@@ -159,4 +159,115 @@ class ViewController: UIViewController {
             level.text = "Level 1"
         }
     }
+   
+    @IBOutlet weak var adviceLabel: UILabel!
+    @IBAction func adviceOne(_ sender: Any) {
+        adviceLabel.text = "Hey, you are at level one, meaning you have a long way to go to hit level 5 of productivity, but I am sure you can do it! I suggest that at your level you should do at the most 3 tasks to make sure you can get them done and if you feel that you have advanced go try more in level 2."
+    }
+    @IBAction func adviceTwo(_ sender: Any) {
+        adviceLabel.text = "You are not as bad as level one, but not too great yet. I am sure you can raise your level if you make a list doable for you. I suggest you to do 4-6 of your tasks so that you can complete all of them, but make sure you prioritize them correctly. When you feel that it is easy for you to do this amount go on to level 3. But if 4-6 tasks is too hard, then you can go down a level to get the basics done first. If it is too easy you can then go up to level 3."
+    }
+    @IBAction func adviceThree(_ sender: Any) {
+        adviceLabel.text = "Okay, so you are in the middle of being half productive and yet still getting half distracted. I am sure you can improve your productivity if you do 7-9 of your tasks and this will show you what is really important to do. This may be challenging, but thats what each level should bring. If it is too much you can always lower your level to get used to a lower number first. But if this level is easy for you, you can then go to level 4 and take on the challenge."
+    }
+    
+    @IBAction func adviceFour(_ sender: Any) {
+        adviceLabel.text = "Nice, you are doing pretty well already. This level will ask of you to do 10-12 of your tasks. It is a hard task, so make sure you are prioritizing the important ones and then do the rest if time allows. I am sure you can do it, but if it is overwhelming go back to level three so you can improve with that first. When you believe you are ready go to level 5, which is basically just a little more advanced than this currrent level you are in."
+    }
+    @IBAction func adviceFive(_ sender: Any) {
+        adviceLabel.text = "Hey! Congrats, you have hit level 5, the most challenging and satisfying level. It is the hardest, which requests you to complete 13 or more of your tasks, although if you don't have 13 or more it is still good to complete your tasks promptly and nicely. This level is for you if you believe that no matter how many tasks you have you can complete them productively without getting distracted. I am so happy you have gotten to this level, but don't overstresss and if it is too hard then go back to level four, which is also very good. If that isn't the case then, Nice You Have Reached the Highest and Hardest Level here."
+    }
+    
+    
+    @IBOutlet weak var ehhh: UILabel!
+    @IBAction func oneQFour(_ sender: Any) {
+        ehhh.text = "Yayyyyyy!"
+    }
+    @IBAction func twoQFour(_ sender: Any) {
+        ehhh.text = "Still probably the best for you."
+    }
+    @IBAction func threeQFour(_ sender: Any) {
+        ehhh.text = "Maybe something else would be a better fit then."
+    }
+    @IBAction func fourQFour(_ sender: Any) {
+        ehhh.text = "Yeah, probably best to try something else."
+    }
+    @IBAction func fiveQFour(_ sender: Any) {
+        ehhh.text = "Yeeee you need a change for sure."
+    }
+    
+    @IBOutlet weak var bleh: UILabel!
+    @IBAction func oneQFive(_ sender: Any) {
+        bleh.text = "Wooooohoooooooo!"
+    }
+    @IBAction func twoQFive(_ sender: Any) {
+        bleh.text = "So still helpful."
+    }
+    @IBAction func threeQFive(_ sender: Any) {
+        bleh.text = "Kind of helpful?"
+    }
+    @IBAction func fourQFive(_ sender: Any) {
+        bleh.text = "At least it wasn't the worse for you."
+    }
+    @IBAction func fiveQFive(_ sender: Any) {
+        bleh.text = "Ai ya"
+    }
+    
+    @IBOutlet weak var aiya: UILabel!
+    @IBAction func oneQSix(_ sender: Any) {
+        aiya.text = "Ahahah Nice!"
+    }
+    @IBAction func twoQSix(_ sender: Any) {
+        aiya.text = "Not too bad then."
+    }
+    @IBAction func threeQSix(_ sender: Any) {
+        aiya.text = "At least you sord of got it."
+    }
+    @IBAction func fourQSix(_ sender: Any) {
+        aiya.text = "Lots of room to improve in."
+    }
+    @IBAction func fiveQSix(_ sender: Any) {
+        aiya.text = "Listen!!!! Please!!!!"
+    }
+    
+    var levell = 0
+    @IBAction func tooHigh(_ sender: Any) {
+        levell -= 1
+    }
+    @IBAction func tooLow(_ sender: Any) {
+        levell += 1
+    }
+    @IBAction func justRight(_ sender: Any) {
+        levell += 0
+    }
+    @IBOutlet weak var printedNewLevel: UILabel!
+    
+    @IBOutlet weak var yourCurrentLevel: UITextField!
+    @IBAction func newLevel(_ sender: Any) {
+        if yourCurrentLevel.text == "1" {
+            if 1 + levell < 1 {
+                printedNewLevel.text = "1"
+                }
+            else {
+                printedNewLevel.text = "\(1 + levell)"
+                        }
+        }
+        else if yourCurrentLevel.text == "2" {
+            printedNewLevel.text = "\(2 + levell) "
+        }
+        else if yourCurrentLevel.text == "3" {
+            printedNewLevel.text = "\(3 + levell) "
+        }
+        else if yourCurrentLevel.text == "4" {
+            printedNewLevel.text = "\(4 + levell) "
+        }
+        else {
+            if 5 + levell >= 6 {
+            printedNewLevel.text = "5"
+            }
+            else {
+            printedNewLevel.text = "\(5 + levell)"
+                    }
+            }
+    }
 }
