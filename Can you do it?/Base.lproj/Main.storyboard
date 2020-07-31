@@ -175,7 +175,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qml-o9-K92">
                                 <rect key="frame" x="20" y="258" width="374" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1184564382" green="1" blue="0.69090862659999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99574285745620728" green="1" blue="0.8636135458946228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="1"/>
                                 <connections>
@@ -1339,10 +1339,10 @@
         <segue reference="raQ-ee-eoJ"/>
         <segue reference="vFa-Sa-Ldu"/>
         <segue reference="sWr-VT-bNO"/>
-        <segue reference="j7F-li-yfW"/>
+        <segue reference="Kxx-wK-OxR"/>
         <segue reference="g4P-3Q-oVv"/>
-        <segue reference="zsd-fe-Q7z"/>
-        <segue reference="Ckf-GK-gBp"/>
+        <segue reference="bhh-u2-kGQ"/>
+        <segue reference="kV1-Vt-kvG"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2020-07-30 at 7.43.07 PM" width="904" height="1100"/>
